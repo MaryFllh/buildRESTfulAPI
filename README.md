@@ -26,3 +26,7 @@ Server: Werkzeug/0.15.4 Python/3.6.7
     ],  
     "prediction": "Positive"  
 }  
+
+#Resources:
+https://towardsdatascience.com/auto-tagging-stack-overflow-questions-5426af692904
+https://towardsdatascience.com/deploying-a-machine-learning-model-as-a-rest-api-4a03b865c166
