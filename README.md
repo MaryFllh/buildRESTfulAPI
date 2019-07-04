@@ -10,7 +10,7 @@ higher accuracy.
 
 # Steps for testing the API
 You can either use the trained model in the models folder and run the app.py script or train the model by running buildModel.py   
-1- After training the model, run app.py. Make sure that the pickle model is in the path.  
+1- After training the model (running buildModel.py) or just loading the trained model (in app.py script), run app.py. Make sure that the pickle model is in the path.  
 2- From another terminal make a GET request with a query, e.g: http http://127.0.0.1:5000/ query == "The movie was extraordinary!"  
 3- The output should be similar to below:    
 HTTP/1.0 200 OK  
