@@ -2,7 +2,7 @@ from flask import Flask
 from flask_restful import reqparse, abort, Api, Resource
 import pickle
 import numpy as np
-from SentimentAnalysis import RNNmodel
+from model import RNNmodel
 import keras
 import tensorflow as tf
 global graph
