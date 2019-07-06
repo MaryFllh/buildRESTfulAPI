@@ -107,7 +107,7 @@ class RNNmodel():
         return y_proba
 
 
-    def plot_confusion_matrix(cm, classes,
+    def plot_confusion_matrix(self, cm, classes,
                           normalize=False,
                           title= 'Confusion Matrix',
                           cmap=plt.cm.Blues):
